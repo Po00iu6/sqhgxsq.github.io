@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>欢迎登录</title>
+    <link rel="stylesheet" href="./Sign.css">
+    <link rel="stylesheet" href="./sqhgxsq.com/next/loading.css">
 </head>
 <body>
-    <script language="javascript"> location.replace("./sqhgxsq.com/next/Hub/Hub.html") </script>
+    <!-- Alert the viewer that the page is loading -->
+    <div class="loading">
+        <!-- Please don't forget link css -->
+        <h1>Loading...</h1>
+    </div>
+    <!--  -->
+    <!-- Sign in -->
+    <div class="box">
+        <h2>Login</h2>
+        <div class="input-box">
+            <label>账号</label>
+            <input type="text"/>
+        </div>
+        <div class="input-box">
+            <label>密码</label>
+            <input type="password"/>
+        </div>
+        <div class="btn-box">
+            <a href="#">忘记密码?</a>
+            <div>
+                <button onclick='window.open("./sqhgxsq.com/next/Hub/Hub.html")'>登录</button>
+                <button onclick='window.open("./sqhgxsq.com/next/Hub/Hub.html")'>注册</button>
+            </div>
+        </div>
+    </div>
+    <!--  -->
 </body>
 </html>
