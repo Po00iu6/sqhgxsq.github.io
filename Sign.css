@@ -2,9 +2,6 @@
 *{
     margin: 0;padding: 0;
 }
-body{
-    background-color:#000;
-}
 body {
     height: 100vh;
     background: url("./sqhgxsq.com/next/Material/msdxtdxz.jpg") no-repeat;
@@ -12,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-position: center; */
+    background-color: #000;
 }
 
 .box {
