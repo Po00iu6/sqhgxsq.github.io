@@ -3,9 +3,10 @@
 }
 body{
     background-color: #000;
+    touch-action: manipulation;
 }
 .sqhgxsq_1_bgi_1{
-    width: 100%;height: 100vh;
+    width: 100vw;height: 100vh;
     background-image: url("https://static-mp-54c94446-e6a2-431f-84c4-ed0d181ae263.next.bspapp.com/Material/xxzhy_3.jpg");
     background-size:cover;
     background-repeat: no-repeat;
@@ -15,7 +16,7 @@ body{
 .sqhgxsq_1_bgi_1_shadow{
     position: absolute;
     z-index: 0;
-    width: 20%;
+    width: 20vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 50px 20vw rgba(0,0,0,0.5);
@@ -24,7 +25,7 @@ body{
 .sqhgxsq_1_bgi_1_1{
     z-index: 1;
     color: white;
-    width: 100%;
+    width: 100vw;
     height: 75vh;
     display: flex;
     flex-direction: column;
@@ -54,7 +55,7 @@ body{
 .sqhgxsq_1_bgi_1_2{
     z-index: 1;
     color: white;
-    width: 100%;
+    width: 100vw;
     height: 25vh;
     display: flex;
     flex-direction: column;
@@ -69,4 +70,205 @@ body{
     font-size:large;
     line-height: 32px;
     letter-spacing: 3px;
+}
+/* --------------------------------- */
+
+.sqhgxsq_1_bgi_1_light_1{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+.sqhgxsq_1_bgi_1_light_1_1{
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 50px 50px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 85vw;
+    top: 5vh;
+    transform: scale(1);
+    animation: light 5s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_2{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 30px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 78vw;
+    top: 6vh;
+    transform: scale(1);
+    animation: light 8s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_3{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 30px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 78vw;
+    top: 19vh;
+    transform: scale(1);
+    animation: light 9s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_4{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 30px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 78vw;
+    top: 32vh;
+    transform: scale(1);
+    animation: light 6s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_5{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 40px 40px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 94vw;
+    top: 30vh;
+    transform: scale(1);
+    animation: light 3s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_6{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 73vw;
+    top: 28vh;
+    transform: scale(1);
+    animation: light 6s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_7{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 73vw;
+    top: 37vh;
+    transform: scale(1);
+    animation: light 4.6s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_8{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 73vw;
+    top: 46vh;
+    transform: scale(1);
+    animation: light 7s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_9{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 73vw;
+    top: 55vh;
+    transform: scale(1);
+    animation: light 5.8s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_10{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 73vw;
+    top: 65vh;
+    transform: scale(1);
+    animation: light 3.6s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_11{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 53vw;
+    top: 78vh;
+    transform: scale(1);
+    animation: light 2.7s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_12{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 10px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 53vw;
+    top: 83vh;
+    transform: scale(1);
+    animation: light 7s infinite;
+}
+.sqhgxsq_1_bgi_1_light_1_13{
+    width: 1px;
+    height: 1px;
+    background: radial-gradient(circle at center, #fffeea 0, #ffffa6, #ffff4d 100%);
+    border-width: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 30px #ffff8e;
+    filter: blur(10px);
+    position: relative;
+    left: 87vw;
+    top: 29vh;
+    transform: scale(1);
+    animation: light 5s infinite;
+}
+@keyframes light{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
