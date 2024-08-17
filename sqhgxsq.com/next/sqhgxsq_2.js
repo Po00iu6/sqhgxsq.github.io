@@ -1,24 +1,24 @@
 const songData = [
   {
-    name: "",
-    artist: "",
-    src: "song1",
+    // name: ".",
+    // artist: ".",
+    src: "Natlan.mp3",
   },
   {
-    name: "",
-    artist: "",
-    src: "song2",
+    // name: ".",
+    // artist: ".",
+    src: "TheSoulSong.mp3",
   },
   {
-    name: "",
-    artist: "",
-    src: "song3",
+    // name: ".",
+    // artist: ".",
+    src: "Natlan.mp3",
   },
 ];
 
 const container = document.querySelector(".container");
-const songName = document.querySelector(".song-name");
-const songArtist = document.querySelector(".song-artist");
+// const songName = document.querySelector(".song-name");
+// const songArtist = document.querySelector(".song-artist");
 const cover = document.querySelector(".cover");
 const playPauseBtn = document.querySelector(".play-pause");
 const prevBtn = document.querySelector(".prev-btn");
