@@ -1,25 +1,33 @@
 const songData = [
-    {
-      src: "song1",
-    },
-    {
-      src: "song2",
-    },
-    {
-      src: "song3",
-    },
-  ];
-  
-  const container = document.querySelector(".container");
-  const cover = document.querySelector(".cover");
-  const playPauseBtn = document.querySelector(".play-pause");
-  const prevBtn = document.querySelector(".prev-btn");
-  const nextBtn = document.querySelector(".next-btn");
-  const audio = document.querySelector(".audio");
-  const songTime = document.querySelector(".song-time");
-  const songProgress = document.querySelector(".song-progress");
-  const coverArtist = document.querySelector(".cover span:nth-child(1)");
-  const coverName = document.querySelector(".cover span:nth-child(2)");
+  {
+    name: "Natlan",
+    artist: "HOYO-MiX",
+    src: "song1",
+  },
+  {
+    name: "Natlan",
+    artist: "HOYO-MiX",
+    src: "song2",
+  },
+  {
+    name: "Natlan",
+    artist: "HOYO-MiX",
+    src: "song3",
+  },
+];
+
+const container = document.querySelector(".container");
+const songName = document.querySelector(".song-name");
+const songArtist = document.querySelector(".song-artist");
+const cover = document.querySelector(".cover");
+const playPauseBtn = document.querySelector(".play-pause");
+const prevBtn = document.querySelector(".prev-btn");
+const nextBtn = document.querySelector(".next-btn");
+const audio = document.querySelector(".audio");
+const songTime = document.querySelector(".song-time");
+const songProgress = document.querySelector(".song-progress");
+const coverArtist = document.querySelector(".cover span:nth-child(1)");
+const coverName = document.querySelector(".cover span:nth-child(2)");
   
   let songIndex = 0;
   
