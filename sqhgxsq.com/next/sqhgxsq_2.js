@@ -2,17 +2,17 @@ const songData = [
   {
     // name: ".",
     // artist: ".",
-    src: "Natlan.mp3",
+    src: "song1",
   },
   {
     // name: ".",
     // artist: ".",
-    src: "TheSoulSong.mp3",
+    src: "song2",
   },
   {
     // name: ".",
     // artist: ".",
-    src: "Natlan.mp3",
+    src: "song3",
   },
 ];
 
