@@ -1,17 +1,17 @@
 const songData = [
   {
-    name: "Natlan",
-    artist: "HOYO-MiX",
+    name: "",
+    artist: "",
     src: "song1",
   },
   {
-    name: "Natlan",
-    artist: "HOYO-MiX",
+    name: "",
+    artist: "",
     src: "song2",
   },
   {
-    name: "Natlan",
-    artist: "HOYO-MiX",
+    name: "",
+    artist: "",
     src: "song3",
   },
 ];
