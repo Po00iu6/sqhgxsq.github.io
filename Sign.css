@@ -3,15 +3,22 @@
     margin: 0;padding: 0;
 }
 body {
-    height: 100vh;
-    background: url("https://static-mp-54c94446-e6a2-431f-84c4-ed0d181ae263.next.bspapp.com/Material/msdxtdxz.jpg") no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000;
 }
-
+.bgi{
+    height: 100vh;
+    width: 100vw;
+    background: url("https://static-mp-54c94446-e6a2-431f-84c4-ed0d181ae263.next.bspapp.com/Material/msdxtdxz.jpg") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .box {
     width: 350px;
     height: 350px;
