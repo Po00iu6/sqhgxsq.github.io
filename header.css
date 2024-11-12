@@ -1,0 +1,48 @@
+
+header{
+    background: #1F1F1F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.he1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.icon{
+    width: 70px;
+    height: 70px;
+    background-image: url("https://upload-bbs.miyoushe.com/upload/2024/11/12/198629752/9a456b56c77075536108d71c179e35dc_2342489037446776094.png");
+    background-size: cover;
+    margin: 0 40px;
+}
+
+.headertitle{
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.he2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: gainsboro;
+    font-size: larger;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,98 @@
+footer{
+    background-color: #1F1F1F;
+    width: 100vw;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+    line-height: 2rem;
+}
+
+
+footer ul{
+    margin: 50px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+footer h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+footer a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+.ft0{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+
+.ft1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.fyw{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Copyright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 14px;
+    text-align: center;
+    color: #C7C7C7;
+    margin: 10px 0;
+}
+
+
+.weixin1 {
+    display: block;
+}
+ 
+.weixin2 {
+    background-image: url("https://upload-bbs.miyoushe.com/upload/2024/11/12/198629752/87dc64f71073dd02c4254ad69b5929e2_2056224211245865412.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    opacity: 0;
+    display: none;
+}
+ 
+/* When .div1 is hovered, show .div2 */
+.weixin1:hover + .weixin2 {
+    display: block;
+    animation: ru 1s ease forwards;
+}
+
+@keyframes ru{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

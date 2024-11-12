@@ -1,0 +1,23 @@
+.div1 {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+
+.div2 {
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 100px;
+    /* Initially hidden */
+    display: none; /* or use visibility: hidden; or opacity: 0; */
+}
+
+/* When .div1 is hovered, show .div2 */
+.div1:hover + .div2 {
+    display: block; /* or use visibility: visible; or opacity: 1; */
+}
