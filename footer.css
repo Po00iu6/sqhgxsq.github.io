@@ -32,6 +32,10 @@ footer a{
     color: #C7C7C7;
 }
 
+footer a:hover{
+    color: gainsboro;
+}
+
 .ft0{
     display: flex;
     flex-direction: row;
