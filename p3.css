@@ -42,3 +42,9 @@
     display: inline;
     color: #8473FF;
 }
+
+
+video{
+    object-fit: cover;
+    z-index:-1;
+}
