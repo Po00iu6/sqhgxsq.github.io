@@ -142,6 +142,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+    margin-right: 10px;
 }
 
 .card1 .g2 .c1{
