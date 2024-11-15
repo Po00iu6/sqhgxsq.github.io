@@ -3,12 +3,45 @@ document.getElementById('scrollLink').addEventListener('click', function(event) 
     smoothScrollToElement('targetElement');
 });
 
+
+document.getElementById('scrollLink1').addEventListener('click', function(event) {
+    event.preventDefault(); // 阻止链接的默认行为
+    smoothScrollToElement('targetElement1');
+});
+
+
+document.getElementById('scrollLink2').addEventListener('click', function(event) {
+    event.preventDefault(); // 阻止链接的默认行为
+    smoothScrollToElement('targetElement2');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function smoothScrollToElement(elementId) {
     var targetElement = document.getElementById(elementId);
     var targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - document.documentElement.clientTop; // 计算目标位置
     var startPosition = window.pageYOffset; // 当前滚动位置
     var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-    var distance = (targetPosition - startPosition)-viewportHeight/2; // 需要滚动的距离
+    var distance = (targetPosition - startPosition)-viewportHeight*(0.118); // 需要滚动的距离
     var duration = 1000; // 滚动动画的持续时间（毫秒）
     var startTime = null;
 

@@ -1,0 +1,140 @@
+.p5{
+    width: 100vw;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.p5-p2{
+    width: 90vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+.p5-p2-p1{
+    margin: 40px 20px;
+}
+
+
+
+
+
+
+
+
+.p5-p2-p1-p1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #F31199;
+}
+
+.p5-p2-p1-p2{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p5-p2-p2{
+    width: 100%;
+    background-color: #3C0137;
+    background-image: url(https://upload-bbs.miyoushe.com/upload/2024/11/15/198629752/9ec8a316603b57b0f6492f5608a820e7_364571132457545260.webp);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 20px;
+
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+}
+
+.p5-p2-p2-p1{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 50px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.p5-p2-p2-p2{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0px 40px;
+}
+
+
+
+.p5-p2-p2-p3{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 40px 40px;
+}
+
+
+
+
+.b1{
+    background-color: #fff;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 40px;
+}
+
+.b1:hover{
+    background-color: #D7CCD7;
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .p5-p2-p1-p1{
+        font-size: 24px;
+    }
+    .p5-p2-p1-p2{
+        font-size: 32px;
+    }
+    .p5-p2-p2-p1{
+        font-size: 18px;
+    }
+}
+

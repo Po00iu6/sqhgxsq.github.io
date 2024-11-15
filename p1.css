@@ -21,13 +21,13 @@
         background-position: 0 0;
     }
     25%{
-        background-position: 20px -20px;
+        background-position: 5px -5px;
     }
     50%{
         background-position: 0 0;
     }
     75%{
-        background-position: -20px 20px;
+        background-position: -5px 5px;
     }
     100%{
         background-position: 0 0;
@@ -62,10 +62,39 @@
     align-items: baseline;
 }
 
-.p1-p1-p2 a{
-    color: #F75CB9;
+.p1-p1-p2 a:nth-child(1){
+    color: #8473FF;
     text-decoration:none;
-    border-bottom: #F75CB9;
+    border-bottom: #8473FF;
+    border-bottom-width: 3px;
+    
+    border-top-width: 0px;
+    
+    border-left-width: 0px;
+    
+    border-right-width: 0px;
+
+    border-style: solid;
+}
+.p1-p1-p2 a:nth-child(2){
+    color: #08DEAA;
+    text-decoration:none;
+    border-bottom: #08DEAA;
+    border-bottom-width: 3px;
+    
+    border-top-width: 0px;
+    
+    border-left-width: 0px;
+    
+    border-right-width: 0px;
+
+    border-style: solid;
+}
+
+.p1-p1-p2 a:nth-child(3){
+    color: #F31199;
+    text-decoration:none;
+    border-bottom: #F31199;
     border-bottom-width: 3px;
     
     border-top-width: 0px;
@@ -94,9 +123,13 @@
 
 .Usvg{
     width: 32px;
-    fill: #F75CB9;
+    fill: #08DEAA;
 }
 
+.Usvg2{
+    width: 32px;
+    fill: #F31199;
+}
 
 
 
@@ -139,13 +172,13 @@
             background-position: 0 100px;
         }
         25%{
-            background-position: 20px 80px;
+            background-position: 5px 90px;
         }
         50%{
             background-position: 0 100px;
         }
         75%{
-            background-position: -20px 120px;
+            background-position: -5px 110px;
         }
         100%{
             background-position: 0 100px;
