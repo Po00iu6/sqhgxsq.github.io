@@ -1,0 +1,178 @@
+.p2{
+    width: 100vw;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.p2-p2{
+    width: 90vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+.p2-p2-p1{
+    margin: 40px 20px;
+}
+
+
+
+
+
+
+
+
+.p2-p2-p1-p1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #8473FF;
+}
+
+.p2-p2-p1-p2{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p2-p2-p2{
+    width: 100%;
+    height: 80vh;
+    background-color: #1B093F;
+
+    border-radius: 20px;
+}
+
+.p2-p2-p2-p1{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 50px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.p2-p2-p2-p2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+
+    overflow: hidden;
+
+    margin: 20px;
+
+    max-width: 380px;
+    height: 120px;
+    outline: 1px solid #7B61FF;
+    outline-offset: 0px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #4618A1, #331277);
+}
+.card1:hover{
+    background: linear-gradient(to right, #521DBF, #411695);
+    outline: 2px solid #7B61FF;
+    outline-offset: 0px;
+    cursor: pointer;
+}
+
+.card1 .g1{
+    width: 60px;
+    height: 60px;
+    background-image: url(https://upload-bbs.miyoushe.com/upload/2024/11/14/198629752/eddd882bcfee6a68725565d5ed71f9bf_7674957440032934938.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 30px;
+}
+.card1 .g2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card1 .g2 .c1{
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.card1 .g2 .c2{
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .p2-p2-p1-p1{
+        font-size: 24px;
+    }
+    .p2-p2-p1-p2{
+        font-size: 32px;
+    }
+    .p2-p2-p2-p1{
+        font-size: 24px;
+    }
+}
+

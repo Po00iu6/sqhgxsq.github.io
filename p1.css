@@ -1,0 +1,162 @@
+.p1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #110318;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+    background-image: url(https://upload-bbs.miyoushe.com/upload/2024/11/14/198629752/81625c2903d998184bc864645dd92af0_2215280216925179919.png);
+    animation: bgAction 5s infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@keyframes bgAction{
+    0%{
+        background-position: 0 0;
+    }
+    25%{
+        background-position: 20px -20px;
+    }
+    50%{
+        background-position: 0 0;
+    }
+    75%{
+        background-position: -20px 20px;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+.p1-p1{
+    width: 80vw;
+    height: 80vh;
+    text-align: start;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+
+.p1-p1-p1{
+    font-size: 92px;
+    font-weight: 600;
+    align-items: baseline;
+}
+
+.p1-p1-p2 a{
+    color: #F75CB9;
+    text-decoration:none;
+    border-bottom: #F75CB9;
+    border-bottom-width: 3px;
+    
+    border-top-width: 0px;
+    
+    border-left-width: 0px;
+    
+    border-right-width: 0px;
+
+    border-style: solid;
+}
+
+.p1-p1-p2 a:hover{
+    color: white;
+    border-bottom: white;
+    border-bottom-width: 3px;
+    
+    border-top-width: 0px;
+    
+    border-left-width: 0px;
+    
+    border-right-width: 0px;
+
+    border-style: solid;
+}
+
+
+.Usvg{
+    width: 32px;
+    fill: #F75CB9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p1-p1-p2{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:600px) {
+    .p1-p1-p1{
+        font-size: 40px;
+    }
+    .p1-p1-p2{
+        font-size: 24px;
+    }
+    .Usvg{
+        width: 24px;
+    }
+    
+
+    .p1{
+        background-position: 0 100px;
+        animation: bgAction 5s infinite;
+    }
+    
+
+    @keyframes bgAction{
+        0%{
+            background-position: 0 100px;
+        }
+        25%{
+            background-position: 20px 80px;
+        }
+        50%{
+            background-position: 0 100px;
+        }
+        75%{
+            background-position: -20px 120px;
+        }
+        100%{
+            background-position: 0 100px;
+        }
+    }
+
+}
+
+
+
+
+
+
+

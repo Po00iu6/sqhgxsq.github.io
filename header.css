@@ -1,11 +1,15 @@
 
 header{
-    background: #1F1F1F;
+    background: rgba(0,0,0, 0.5);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    z-index: 3;
+    width: 100vw;
 }
 
 
@@ -21,8 +25,8 @@ header{
 
 
 .icon{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-image: url("https://upload-bbs.miyoushe.com/upload/2024/11/12/198629752/9a456b56c77075536108d71c179e35dc_2342489037446776094.png");
     background-size: cover;
     margin: 0 40px;
@@ -38,6 +42,23 @@ header{
 }
 
 
+@media screen and (max-width:600px) {
+    .headertitle{
+        font-size: 22px;
+    }
+    .icon{
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
 .he2{
     display: flex;
     flex-direction: row;
@@ -47,14 +68,15 @@ header{
     color: gainsboro;
     font-size: larger;
     letter-spacing: 2px;
-
-    margin: 0 20px;
+    margin: 20px;
 }
 
 .he2 a{
     font-style: normal;
     color: white;
     text-decoration: none;
+    margin: 10px;
+    line-height: 2rem;
 }
 
 .he2 a:hover{
