@@ -3,49 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>demo</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        body{
-            overflow-x: hidden;
-        }
-        .t1{
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-        }
-        .t2{
-            position: absolute;
-            width: 100vw;
-            height: 100vh;
-            background-color: rgba(0,0,0,0.6);
-            z-index: 1;
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            font-size: 36px;
-            font-weight: 600;
-            color: white;
-        }
-    </style>
+    <title>Video to Canvas</title>
 </head>
 <body>
-    <div class="t1">
-        <video src="https://act-webstatic.mihoyo.com/puzzle/hk4e/pz_BtkeHCxQ3a/resource/puzzle/2024/11/08/fd7f03b160a6e938999989119f7aa95a_8766062612396520469.mp4" loop="loop" autoplay="autoplay" muted></video>
-        <div class="t2">
-            <div>欢迎来到纳塔</div>
-        </div>
-    </div>
-    <div class="t1">
-    </div>
+    <!-- 视频元素 -->
+    <video style="position: absolute;width: 1px;height: 1px;z-index: 1;" id="video" width="640" height="360" loop="loop" autoplay="autoplay" muted x5-playsinline="" playsinline="true" webkit-playsinline="false" x-webkit-airplay="true" x5-video-player-type="h5" x5-video-player-fullscreen="" x5-video-orientation="portraint">
+        <source src="https://act-webstatic.mihoyo.com/puzzle/hk4e/pz_BtkeHCxQ3a/resource/puzzle/2024/11/08/fd7f03b160a6e938999989119f7aa95a_8766062612396520469.mp4" type="video/mp4" >
+    </video>
+    <!-- 画布元素 -->
+    <canvas id="canvas" width="1920" height="1080" style="background-color: black;"></canvas>
+    <div style="height: 200vh;"></div>
+    <script>
+        // 获取视频和画布元素
+        const video = document.getElementById('video');
+        const canvas = document.getElementById('canvas');
+        const context = canvas.getContext('2d');
+
+        // 每帧更新画布内容
+        video.addEventListener('play', function () {
+            const drawFrame = () => {
+                if (!video.paused && !video.ended) {
+                    context.drawImage(video, 0, 0, canvas.width, canvas.height);
+                    requestAnimationFrame(drawFrame);
+                }
+            };
+            drawFrame();
+        });
+    </script>
 </body>
 </html>

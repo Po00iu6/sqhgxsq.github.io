@@ -136,7 +136,10 @@
 
     <div class="p3">
         <div class="p3-p1">
-            <video class="p3-p1-p1" src="https://act-webstatic.mihoyo.com/puzzle/hk4e/pz_BtkeHCxQ3a/resource/puzzle/2024/11/08/fd7f03b160a6e938999989119f7aa95a_8766062612396520469.mp4" loop="loop" autoplay="autoplay" muted controls="none"></video>
+            <video class="p3-p1-p1" id="video" loop="loop" autoplay="autoplay" muted x5-playsinline="" playsinline="true" webkit-playsinline="false" x-webkit-airplay="true" x5-video-player-type="h5" x5-video-player-fullscreen="" x5-video-orientation="portraint">
+                <source src="https://act-webstatic.mihoyo.com/puzzle/hk4e/pz_BtkeHCxQ3a/resource/puzzle/2024/11/08/fd7f03b160a6e938999989119f7aa95a_8766062612396520469.mp4" type="video/mp4" >
+            </video>
+            <canvas id="canvas" width="1920" height="1080" style="background-color: black;"></canvas>
             <div class="p3-p1-p2">
                 <div class="p3-p1-p2-p1">每年一本录取率超<div>30%</div></div>
             </div>
@@ -291,4 +294,5 @@
 
 </body>
 <script src="./ToTargetscroll.js"></script>
+<script src="./CanvasVideo.js"></script>
 </html>
