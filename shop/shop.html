@@ -27,8 +27,32 @@
 
 
     <link rel="stylesheet" href="../footer.css">
+
+
+
+    <!-- 用户协议css -->
+    <link rel="stylesheet" href="./xieyi.css">
+    <script src="./xieyi.js"></script>
 </head>
 <body>
+
+
+
+    <!-- 用户协议弹出框 -->
+    <div id="agreementModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p><h3>入站须知——免责声明</h3>为了避免法律纠纷，请阅读并同意以下用户协议。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;尊敬的用户： 您即将通过本页面确认使用商丘市回民中学二手交易网为您提供的商品和相关服务需注意的相关事项。在接受本须知内容之前，请您仔细阅读本须知的全部内容如果您对本须知的条款有疑问的，请通过站长QQ：2303058330进行询问，站长将向您解释条款内容。如果您不同意本须知的任意内容，或者无法准确理解条款的解释，请不要进行后续操作。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二手交易网使用须知(简称“本须知”)是用户(以下简称“用户”或“您”)就使用基于在第三方的卖家(以下简称“卖家”)提供相关商品或服务所签署的有效文件。用户通过网络页面点击确认或以其他方式选择接受本须知，即表示您同意接受以下全部内容： <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.您在本网站中与卖家产生的所有交易，均在QQ或微信内进行，对于交易过程中的资金及个人信息的安全问题，均由您负责，本网站不承担任何交易过程产生的资金及个人信息安全问题的责任。 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.卖家提供的产品和服务由卖家独立负责。在交易过程中遇到任何质量或者服务问题，均可以找站长和卖家进行协商，本网站不对卖家提供的商品或服务承担任何责任。 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.为了保障您的权益，本网站将定期对卖家提供的商品宣传进行检查，但您理解检查不可能每时每刻都在进行。所以，请您仔细阅读卖家对商品的各种宣传资料，对其做出准确判断。本网站对卖家所涉及的商品和服务任何内容、宣传、和其他材料未作认证，也不对此负责或承担任何责任。 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.网络欺诈往往会模仿，站长提醒您防范网络风险，不要向任何人士(包括卖家)透露家庭住址、银行卡等相关信息。 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.您理解并同意， 本平台仅提供第三方卖家的商品链接，对于卖家的商品服务的选择和交易的内容，应由您自行判断，且审慎交易。您需自行了解卖家提供的商品或服务的功能、收费标准、退款规则、服务有效期等情况并注意交易风险。本网站及其管理员不对卖家和用户行为的合法性、有效性及卖家提供商品和服务的真实性、合法性和有效性作任何明示和默示的担保。用户与卖家产生纠纷时将努力进行协调，卖家也应秉承为用户提供优质商品和服务的理念为用户提供便利，但管理员并不保证协调取得实际效果。 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.如您发现卖家侵犯您的合法权益的，或您不幸遭遇网络欺诈的，请及时联系管理员，本网站会协助您维护您的合法权益。 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.本网站为公益网站，运营期间不会产生任何盈利，也不会对卖家与买家进行收费，如果有人冒充管理员进行收费，请不要理睬，产生的任何损失由您承担，网站管理员不负任何责任。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;声明人：全体管理员 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日期：2024/11/16</p>
+            <div class="button-group">
+                <button class="button-1" id="disagreeButton">不同意并退出</button>
+                <button class="button-1" id="agreeButton">同意并继续</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
 
     <header>
         <div class="he1">
@@ -75,7 +99,7 @@
 
         <div class="p2-p2">
             
-            <div class="t1">
+            <div class="t1" onclick="window.open('./object/xxxasybt_xlzd.html')">
                 <div class="box1" style="background-image: url(https://upload-bbs.miyoushe.com/upload/2024/11/16/198629752/37e391f2da4677fb7cc3ddfe3132d781_5569539822834032977.jpg);" name="商品图片"></div>
                 <div class="box2">
                     <div name="名称">信息学奥赛一本通·训练指导</div>
@@ -84,7 +108,7 @@
                 </div>
             </div>
 
-            <div class="t1">
+            <div class="t1" onclick="window.open('./object/xxxasybt_csp.html')">
                 <div class="box1" style="background-image: url(https://upload-bbs.miyoushe.com/upload/2024/11/16/198629752/7ded10879513aad1f96e829e334c4da2_5520994986419541326.jpg);" name="商品图片"></div>
                 <div class="box2">
                     <div name="名称">信息学奥赛一本通·初赛篇</div>
@@ -93,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="t1">
+            <div class="t1" onclick="window.open('./object/xxxasybt_csztjx.html')">
                 <div class="box1" style="background-image: url(https://upload-bbs.miyoushe.com/upload/2024/11/16/198629752/e3a08b89b31e8613bf00113c43ce570e_5880264885507766113.jpg);" name="商品图片"></div>
                 <div class="box2">
                     <div name="名称">信息学奥赛一本通·初赛真题解析</div>
@@ -102,7 +126,7 @@
                 </div>
             </div>
 
-            <div class="t1">
+            <div class="t1" onclick="window.open('./object/xxxasybt_gd.html')">
                 <div class="box1" style="background-image: url(https://upload-bbs.miyoushe.com/upload/2024/11/16/198629752/dacbf62b915bd63f703dd3eebbb96d2a_7451564992902810370.jpg);" name="商品图片"></div>
                 <div class="box2">
                     <div name="名称">信息学奥赛一本通·光碟 (未拆封)</div>
@@ -111,7 +135,7 @@
                 </div>
             </div>
             
-            <div class="t1">
+            <div class="t1" onclick="window.open('./object/gzsxjtw.html')">
                 <div class="box1" style="background-image: url(https://upload-bbs.miyoushe.com/upload/2024/11/16/198629752/d50587f1cc4bd3fa902a026a95182c22_810065608418882107.jpg);" name="商品图片"></div>
                 <div class="box2">
                     <div name="名称">高中数学解题王 (附赠样题讲解)</div>

@@ -10,3 +10,10 @@ body{
     background-color: #000000;
     -webkit-touch-callout: none;
 }
+
+
+
+hr{
+    max-width: 100vw;
+    min-width: 80vw;
+}
