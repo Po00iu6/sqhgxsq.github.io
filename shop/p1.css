@@ -9,12 +9,34 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 80%;
+
+    text-align: center;
 }
 
-.p1>div{
+.p1-p1{
     color: white;
     font-size: 64px;
     font-weight: 600;
     letter-spacing: 2rem;
     font-style: italic;
+    animation: textact 10s backwards infinite;
+}
+
+
+@keyframes textact{
+    0%{
+        color: white;
+    }
+    45%{
+        color: white;
+    }
+    50%{
+        color: yellow;
+    }
+    45%{
+        color: white;
+    }
+    100%{
+        color: white;
+    }
 }
