@@ -102,7 +102,7 @@
 
 
 
-.card1{
+.card1-nth1{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -120,14 +120,14 @@
     border-radius: 20px;
     background: linear-gradient(to right, #4618A1, #331277);
 }
-.card1:hover{
+.card1-nth1:hover{
     background: linear-gradient(to right, #521DBF, #411695);
     outline: 2px solid #7B61FF;
     outline-offset: 0px;
     cursor: pointer;
 }
 
-.card1 .g1{
+.card1-nth1 .g1{
     width: 60px;
     height: 60px;
     background-image: url(https://upload-bbs.miyoushe.com/upload/2024/11/14/198629752/eddd882bcfee6a68725565d5ed71f9bf_7674957440032934938.png);
@@ -136,7 +136,7 @@
     background-position: center;
     margin: 0 30px;
 }
-.card1 .g2{
+.card1-nth1 .g2{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -145,16 +145,93 @@
     margin-right: 10px;
 }
 
-.card1 .g2 .c1{
+.card1-nth1 .g2 .c1{
     font-size: 20px;
     line-height: 2rem;
     font-weight: 500;
 }
-.card1 .g2 .c2{
+.card1-nth1 .g2 .c2{
     font-size: 16px;
     line-height: 2rem;
     font-weight: 500;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card1-nth2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+
+    overflow: hidden;
+
+    margin: 20px;
+
+    width: 380px;
+    height: 120px;
+    outline: 1px solid #7B61FF;
+    outline-offset: 0px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #4618A1, #331277);
+}
+.card1-nth2:hover{
+    background: linear-gradient(to right, #521DBF, #411695);
+    outline: 2px solid #7B61FF;
+    outline-offset: 0px;
+    cursor: pointer;
+}
+
+.card1-nth2 .g1{
+    width: 60px;
+    height: 60px;
+    background-image: url(https://upload-bbs.miyoushe.com/upload/2024/11/16/198629752/89e62a7618bcb36dfe1def3530c6475f_5639855943591333851.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 30px;
+}
+.card1-nth2 .g2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+.card1-nth2 .g2 .c1{
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.card1-nth2 .g2 .c2{
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

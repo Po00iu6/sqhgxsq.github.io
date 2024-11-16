@@ -1,0 +1,30 @@
+.p2{
+    width: 100vw;
+    min-height: 50vh;
+    background-color: #4D3C34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.p2-p1{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 40px 10px;
+}
+
+.p2-p2{
+    width: 90%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.t1{
+
+}
