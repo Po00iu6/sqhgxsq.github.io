@@ -1,46 +1,10 @@
-<?xml version="1.0"?>
-<users>
-	<user>E636B33C63F884A1E40D913638E2424B</user>
-	<urlset>
-		<url>
-			<loc>
-			https://po00iu6.github.io/sqhgxsq.github.io/index.html
-			</loc>
-		</url>
-		<url>
-			<loc>
-			https://po00iu6.github.io/sqhgxsq.github.io/title1.html
-			</loc>
-		</url>
-		<url>
-			<loc>
-			https://po00iu6.github.io/sqhgxsq.github.io/title2.html
-			</loc>
-		</url>
-		<url>
-			<loc>
-			https://po00iu6.github.io/sqhgxsq.github.io/title3.html
-			</loc>
-		</url>
-		<url>
-			<loc>
-			https://po00iu6.github.io/sqhgxsq.github.io/title4.html
-			</loc>
-		</url>
-		<url>
-			<loc>
-			https://po00iu6.github.io/sqhgxsq.github.io/title5.html
-			</loc>
-		</url>
-		<url>
-			<loc>
-			https://po00iu6.github.io/sqhgxsq.github.io/title6.html
-			</loc>
-		</url>
-		<url>
-			<loc>
-			https://po00iu6.github.io/sqhgxsq.github.io/title7.html
-			</loc>
-		</url>
-	</urlset>
-</users>
+<?xml version="1.0" encoding="UTF-8"?>
+<siteMap xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <users>
+        <user>E636B33C63F884A1E40D913638E2424B</user>
+    </users>
+    <siteMapNode url="https://po00iu6.github.io/sqhgxsq.github.io/" title="商丘市回民中学主页">
+        <siteMapNode url="https://po00iu6.github.io/sqhgxsq.github.io/" title="学校首页" description="商丘市回民中学官方网站，致力于实现大学愿景，为学生、教师和企业提供网络服务" />
+        <siteMapNode url="https://po00iu6.github.io/sqhgxsq.github.io/shop/shop.html" title="面向学生" description="为学生提供轻松获取服务的平台，包含二手交易市场等丰富功能" />
+    </siteMapNode>
+</siteMap>
